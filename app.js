@@ -2,7 +2,7 @@
 
 function Countdown() {
     const date = new Date();
-    const target = new Date('26 June 2021');
+    const target = new Date('26 June 2022');
 
     const dif = (target - date) / 1000;
     const days = Math.floor(dif / 3600 / 24);
